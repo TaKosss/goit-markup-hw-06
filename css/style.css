@@ -721,12 +721,12 @@ ul {
     border-radius: 50%;
     justify-items: center;
     align-items: center;
-    /* background-color: #ffffff; */
     cursor: pointer;
     border: none;
- 
 }
-
+.modal-close-btn:hover, .modal-close-btn:focus {
+    fill: var(--hover--hero--color);
+}
 .modal-title {
     font-weight: 700;
     font-size: 20px;
